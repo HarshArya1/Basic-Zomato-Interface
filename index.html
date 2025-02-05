@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="start">
+        <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="Image" class="img1">
+        <input type="text" placeholder="  Search for restaurant, cuisine or a dish ">
+        <div class="yes">
+            <button>Login</button>
+            <button>Sign up</button>
+        </div>
+    </div>
+    <div id="head">
+        <button id="Filters">Filters</button>
+        <button id="Clear">Clear Filters</button>
+        <button id="Offers">Offers</button>
+        <button id="Rating">Rating 4.5+</button>
+        <button id="Alcohol">Serves Alcohol</button>
+        <button id="Open">Open Now</button>
+    </div>
+    <!-- Filter options popup -->
+    <div id="filterPopup" class="hidden">
+        <h3>Choose Filter</h3>
+        <div class="filterOption">
+            <input type="radio" id="sortByRating" name="filterOption" value="rating">
+            <label for="sortByRating">Sort by Rating</label>
+        </div>
+        <div class="filterOption">
+            <input type="radio" id="sortHighToLow" name="filterOption" value="highLow">
+            <label for="sortHighToLow">High to Low (Price)</label>
+        </div>
+        <div class="filterOption">
+            <input type="radio" id="costOption" name="filterOption" value="costLowHigh">
+            <label for="costOption">Cost: Low to High</label>
+        </div>
+        <div class="filterOption">
+            <input type="radio" id="distanceOption" name="filterOption" value="distance">
+            <label for="distanceOption">Distance</label>
+        </div>
+        <button id="applyFilter">Apply</button>
+        <button id="closeFilter">Close</button>
+    </div>
+    <img class="by" src="https://b.zmtcdn.com/data/o2_assets/e067a1cf0d3fe27b366402b98b994e9f1716296909.png" alt="">
+    <!-- Insert all the card there -->
+    <div id="root">
+    </div>
+    <div class="pic">
+    <img class="first1" src="https://b.zmtcdn.com/data/o2_assets/ce5bc038a8a2d4f8f24465c8826182af1726501431.png" alt="">
+    <div class="pp">
+    <h1>Get the Zomato app</h1>
+    <p >We will send you a link, open it on your phone to download the app</p>
+    <p>Download From</p>
+    <img class="ho" src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png" width="150px"/>
+    <img class="ho" src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png" width="150px"/>
+        
+    </div>
+    </div>
+    <!-- Footer -->
+    <div id="last">
+    <div class="content">
+        <div class="first">
+        <h3>About Zomato</h3>
+        <p>Who We Are</p>
+        <p>Blog</p>
+        <p>Work With Us</p>
+        <p>Investor Relations</p>
+        <p>Report Fraud</p>
+        <p>Press Kit</p>
+        <p>Contact Us</p>
+        </div>
+        <div class="second">
+            <h3>Zomaverse</h3>
+            <p>Zomato</p>
+            <p>Blinkit</p>
+            <p>District</p>
+            <p>Feeding India</p>
+            <p>Hyperpure</p>
+            <p>Zomato Live</p>
+            <p>Zomaland</p>
+            <p>Weather Union</p>
+        </div>
+        <div class="third">
+            <h3>For Restaurants</h3>
+            <p>Partner With us</p>
+            <p>Apps For You</p>
+        </div>
+        <div class="fourth">
+            <h3>Learn More</h3>
+            <p>Privacy</p>
+            <p>Security</p>
+            <p>Terms</p>
+        </div>
+        <div class="fourth">
+            <h3>Social links</h3>
+            <div className=" yo">
+                <img id="small" src="https://constant.myntassets.com/web/assets/img/d2bec182-bef5-4fab-ade0-034d21ec82e31574604275433-fb.png" width= "20px;" height= "20px;"/>
+                <img id="small" src="https://constant.myntassets.com/web/assets/img/f10bc513-c5a4-490c-9a9c-eb7a3cc8252b1574604275383-twitter.png" width= "20px;" height= "20px;"/>
+                <img id="small" src="https://constant.myntassets.com/web/assets/img/a7e3c86e-566a-44a6-a733-179389dd87111574604275355-yt.png" width= "20px;" height= "20px;"/>
+                <img id="small" src="https://constant.myntassets.com/web/assets/img/b4fcca19-5fc1-4199-93ca-4cae3210ef7f1574604275408-insta.png" width= "20px;" height= "20px;"/>
+            </div>
+            
+                <img class="ho" src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png" width="150px"/>
+                <img class="ho" src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png" width="150px"/>
+        
+        </div>
+    </div>
+        <div class="final">
+            <hr>
+            <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2025 © Zomato™ Ltd. All rights reserved.</p>
+        </div>
+     </div>
+    <script src="./app.js"></script>
+</body>
+</html>
