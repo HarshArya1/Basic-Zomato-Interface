@@ -1443,5 +1443,9 @@ getrestaurant(restaurant1);
 })
 
 document.getElementById('closeFilter').addEventListener('click',()=>{
-  document.getElementById("filterPopup").classList.add('hidden');
+document.getElementById("filterPopup").classList.add('hidden');
+const radioInputs = document.querySelectorAll('input[type="radio"]');
+radioInputs.forEach(function(radio) {
+radio.checked = false;
+});
 })
